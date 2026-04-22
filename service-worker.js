@@ -1,14 +1,5 @@
 const CACHE_NAME = "obsidian-memory-v1";
-const BASE_URL = new URL("./", self.location.href);
-const INDEX_URL = new URL("index.html", BASE_URL).toString();
-const APP_SHELL = [
-  BASE_URL.toString(),
-  INDEX_URL,
-  new URL("manifest.webmanifest", BASE_URL).toString(),
-  new URL("cards.generated.json", BASE_URL).toString(),
-  new URL("icon-192.svg", BASE_URL).toString(),
-  new URL("icon-512.svg", BASE_URL).toString(),
-];
+const APP_SHELL = ["/", "/index.html", "/manifest.webmanifest", "/cards.generated.json", "/icon-192.svg", "/icon-512.svg"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -46,10 +37,10 @@ self.addEventListener("fetch", (event) => {
       fetch(request)
         .then((response) => {
           const copy = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(INDEX_URL, copy));
+          caches.open(CACHE_NAME).then((cache) => cache.put("/index.html", copy));
           return response;
         })
-        .catch(() => caches.match(INDEX_URL)),
+        .catch(() => caches.match("/index.html")),
     );
     return;
   }
@@ -69,7 +60,7 @@ self.addEventListener("fetch", (event) => {
 
           return response;
         })
-        .catch(() => caches.match(INDEX_URL));
+        .catch(() => caches.match("/index.html"));
     }),
   );
 });
