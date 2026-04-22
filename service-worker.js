@@ -1,9 +1,16 @@
-const CACHE_NAME = "obsidian-memory-v2";
+const CACHE_NAME = "obsidian-memory-v3";
 const APP_SCOPE = new URL("./", self.location.href).href;
 const INDEX_URL = new URL("index.html", APP_SCOPE).href;
-const APP_SHELL = ["", "index.html", "manifest.webmanifest", "cards.generated.json", "icon-192.svg", "icon-512.svg"].map(
-  (path) => new URL(path, APP_SCOPE).href,
-);
+const APP_SHELL = [
+  "",
+  "index.html",
+  "manifest.webmanifest",
+  "cards.generated.json",
+  "cards.curriculum.expanded.generated.json",
+  "curriculum.generated.json",
+  "icon-192.svg",
+  "icon-512.svg",
+].map((path) => new URL(path, APP_SCOPE).href);
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
