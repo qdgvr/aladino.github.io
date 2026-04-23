@@ -12,6 +12,14 @@ const APP_SHELL = [
   "icon-192.svg",
   "icon-512.svg",
 ].map((path) => new URL(path, APP_SCOPE).href);
+const DATA_URLS = new Set(
+  [
+    "cards.generated.json",
+    "cards.curriculum.generated.json",
+    "curriculum.generated.json",
+    "curriculum.lesson-plan.generated.json",
+  ].map((path) => new URL(path, APP_SCOPE).href),
+);
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -53,6 +61,22 @@ self.addEventListener("fetch", (event) => {
           return response;
         })
         .catch(() => caches.match(INDEX_URL)),
+    );
+    return;
+  }
+
+  if (DATA_URLS.has(url.href)) {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+          }
+
+          return response;
+        })
+        .catch(() => caches.match(request)),
     );
     return;
   }
