@@ -1,4 +1,4 @@
-const CACHE_NAME = "obsidian-memory-v3";
+const CACHE_NAME = "obsidian-memory-v5";
 const APP_SCOPE = new URL("./", self.location.href).href;
 const INDEX_URL = new URL("index.html", APP_SCOPE).href;
 const APP_SHELL = [
@@ -6,8 +6,9 @@ const APP_SHELL = [
   "index.html",
   "manifest.webmanifest",
   "cards.generated.json",
-  "cards.curriculum.expanded.generated.json",
+  "cards.curriculum.generated.json",
   "curriculum.generated.json",
+  "curriculum.lesson-plan.generated.json",
   "icon-192.svg",
   "icon-512.svg",
 ].map((path) => new URL(path, APP_SCOPE).href);
