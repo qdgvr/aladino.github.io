@@ -1,18 +1,66 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-24T14:03:15.571Z",
-  "courseId": "discurso",
-  "sourceBlueprintPath": "Discurso/Arreglados/discurso_duolingo_blueprint_24u_92l_1224i.md",
-  "sourceAuditPath": "docs/curriculum-audit.md",
+  "generatedAt": "2026-04-24T16:45:00.089Z",
+  "courseId": "multi-course",
+  "sourceBlueprintPath": "combined",
+  "sourceAuditPath": "combined",
   "totals": {
-    "units": 24,
-    "lessons": 92,
-    "coreExercises": 1080,
-    "reviewInteractions": 96,
-    "challengeInteractions": 48,
-    "totalInteractions": 1224
+    "units": 51,
+    "lessons": 203,
+    "coreExercises": 2158,
+    "reviewInteractions": 136,
+    "challengeInteractions": 78,
+    "totalInteractions": 2372
   },
   "sourceDocs": [
+    {
+      "id": "BP",
+      "title": "Codigo duolingo blueprint 15u 55l 650i",
+      "path": "Código/Apuntes (Código)/codigo_duolingo_blueprint_15u_55l_650i.md",
+      "role": "course-shape"
+    },
+    {
+      "id": "CM",
+      "title": "Codigo.md",
+      "path": "Código/Apuntes (Código)/Arreglados/Codigo.md",
+      "role": "class-notes"
+    },
+    {
+      "id": "CV",
+      "title": "Código y valores de la Profesión Periodística",
+      "path": "Código/Apuntes (Código)/Código y valores de la Profesión Periodística.docx",
+      "role": "main-theory"
+    },
+    {
+      "id": "PI",
+      "title": "Periodismo imprescindible",
+      "path": "Código/Periodismo imprescindible.docx",
+      "role": "reinforcement-essay"
+    },
+    {
+      "id": "PG",
+      "title": "Pautas y guion para el comentario de texto",
+      "path": "Código/Comentario del texto/PAUTAS Y GUION PARA EL COMENTARIO DE TEXTO.docx",
+      "role": "commentary-method"
+    },
+    {
+      "id": "LG",
+      "title": "Comentario de texto La Guía del Sur",
+      "path": "Código/Comentario del texto/COMENTARIO DE TEXTO \"LA GUÍA DEL SUR\" CÓDIGOS Y VALORES.docx",
+      "role": "applied-case"
+    },
+    {
+      "id": "C2",
+      "title": "Corrección segundo comentario",
+      "path": "Código/Comentario del texto/CORRECCIÓN SEGUNDO COMENTARIO.docx",
+      "role": "applied-correction"
+    },
+    {
+      "id": "T2",
+      "title": "Texto 2 para comentario del texto",
+      "path": "Código/Comentario del texto/Texto 2 para comentario del texto.docx",
+      "role": "raw-case-text"
+    },
     {
       "id": "BP",
       "title": "Blueprint Discurso 24u 92l 1224i",
@@ -39,6 +87,239 @@
     }
   ],
   "sections": [
+    {
+      "id": "codigo-section-a",
+      "title": "Section A. 저널리즘의 존재 이유",
+      "order": 1,
+      "units": [
+        {
+          "id": "codigo-u01-periodismo-imprescindible-y-servicio-publico",
+          "blueprintUnitId": "U01",
+          "title": "U01. Periodismo imprescindible y servicio público",
+          "order": 1,
+          "lessonIds": [
+            "codigo-u01-periodismo-imprescindible-y-servicio-publico-l01",
+            "codigo-u01-periodismo-imprescindible-y-servicio-publico-l02",
+            "codigo-u01-periodismo-imprescindible-y-servicio-publico-l03",
+            "codigo-u01-periodismo-imprescindible-y-servicio-publico-l04"
+          ],
+          "reviewNodeId": "codigo-u01-periodismo-imprescindible-y-servicio-publico-review",
+          "challengeNodeId": "codigo-u01-periodismo-imprescindible-y-servicio-publico-challenge"
+        },
+        {
+          "id": "codigo-u02-profesion-oficio-y-mediacion",
+          "blueprintUnitId": "U02",
+          "title": "U02. Profesión, oficio y mediación",
+          "order": 2,
+          "lessonIds": [
+            "codigo-u02-profesion-oficio-y-mediacion-l01",
+            "codigo-u02-profesion-oficio-y-mediacion-l02",
+            "codigo-u02-profesion-oficio-y-mediacion-l03",
+            "codigo-u02-profesion-oficio-y-mediacion-l04"
+          ],
+          "reviewNodeId": "codigo-u02-profesion-oficio-y-mediacion-review",
+          "challengeNodeId": "codigo-u02-profesion-oficio-y-mediacion-challenge"
+        },
+        {
+          "id": "codigo-u03-democracia-opinion-publica-y-cuarto-poder",
+          "blueprintUnitId": "U03",
+          "title": "U03. Democracia, opinión pública y cuarto poder",
+          "order": 3,
+          "lessonIds": [
+            "codigo-u03-democracia-opinion-publica-y-cuarto-poder-l01",
+            "codigo-u03-democracia-opinion-publica-y-cuarto-poder-l02",
+            "codigo-u03-democracia-opinion-publica-y-cuarto-poder-l03",
+            "codigo-u03-democracia-opinion-publica-y-cuarto-poder-l04"
+          ],
+          "reviewNodeId": "codigo-u03-democracia-opinion-publica-y-cuarto-poder-review",
+          "challengeNodeId": "codigo-u03-democracia-opinion-publica-y-cuarto-poder-challenge"
+        },
+        {
+          "id": "codigo-u04-derecho-etica-y-marco-constitucional",
+          "blueprintUnitId": "U04",
+          "title": "U04. Derecho, ética y marco constitucional",
+          "order": 4,
+          "lessonIds": [
+            "codigo-u04-derecho-etica-y-marco-constitucional-l01",
+            "codigo-u04-derecho-etica-y-marco-constitucional-l02",
+            "codigo-u04-derecho-etica-y-marco-constitucional-l03",
+            "codigo-u04-derecho-etica-y-marco-constitucional-l04"
+          ],
+          "reviewNodeId": "codigo-u04-derecho-etica-y-marco-constitucional-review",
+          "challengeNodeId": "codigo-u04-derecho-etica-y-marco-constitucional-challenge"
+        }
+      ]
+    },
+    {
+      "id": "codigo-section-b",
+      "title": "Section B. 인간 존엄과 직업 윤리",
+      "order": 2,
+      "units": [
+        {
+          "id": "codigo-u05-etica-moral-y-caracter",
+          "blueprintUnitId": "U05",
+          "title": "U05. Ética, moral y carácter",
+          "order": 5,
+          "lessonIds": [
+            "codigo-u05-etica-moral-y-caracter-l01",
+            "codigo-u05-etica-moral-y-caracter-l02",
+            "codigo-u05-etica-moral-y-caracter-l03"
+          ],
+          "reviewNodeId": "codigo-u05-etica-moral-y-caracter-review",
+          "challengeNodeId": "codigo-u05-etica-moral-y-caracter-challenge"
+        },
+        {
+          "id": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad",
+          "blueprintUnitId": "U06",
+          "title": "U06. Ética humanista: tolerancia, libertad, igualdad",
+          "order": 6,
+          "lessonIds": [
+            "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-l01",
+            "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-l02",
+            "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-l03",
+            "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-l04"
+          ],
+          "reviewNodeId": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-review",
+          "challengeNodeId": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-challenge"
+        },
+        {
+          "id": "codigo-u07-dignidad-humana-y-derechos-fundamentales",
+          "blueprintUnitId": "U07",
+          "title": "U07. Dignidad humana y derechos fundamentales",
+          "order": 7,
+          "lessonIds": [
+            "codigo-u07-dignidad-humana-y-derechos-fundamentales-l01",
+            "codigo-u07-dignidad-humana-y-derechos-fundamentales-l02",
+            "codigo-u07-dignidad-humana-y-derechos-fundamentales-l03",
+            "codigo-u07-dignidad-humana-y-derechos-fundamentales-l04"
+          ],
+          "reviewNodeId": "codigo-u07-dignidad-humana-y-derechos-fundamentales-review",
+          "challengeNodeId": "codigo-u07-dignidad-humana-y-derechos-fundamentales-challenge"
+        },
+        {
+          "id": "codigo-u08-dignidad-profesional-y-anti-cinismo",
+          "blueprintUnitId": "U08",
+          "title": "U08. Dignidad profesional y anti-cinismo",
+          "order": 8,
+          "lessonIds": [
+            "codigo-u08-dignidad-profesional-y-anti-cinismo-l01",
+            "codigo-u08-dignidad-profesional-y-anti-cinismo-l02",
+            "codigo-u08-dignidad-profesional-y-anti-cinismo-l03"
+          ],
+          "reviewNodeId": "codigo-u08-dignidad-profesional-y-anti-cinismo-review",
+          "challengeNodeId": "codigo-u08-dignidad-profesional-y-anti-cinismo-challenge"
+        }
+      ]
+    },
+    {
+      "id": "codigo-section-c",
+      "title": "Section C. 자율규제와 코드",
+      "order": 3,
+      "units": [
+        {
+          "id": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil",
+          "blueprintUnitId": "U09",
+          "title": "U09. Autorregulación: mercado, Estado y sociedad civil",
+          "order": 9,
+          "lessonIds": [
+            "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-l01",
+            "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-l02",
+            "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-l03",
+            "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-l04"
+          ],
+          "reviewNodeId": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-review",
+          "challengeNodeId": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-challenge"
+        },
+        {
+          "id": "codigo-u10-derechos-y-deberes-del-periodista",
+          "blueprintUnitId": "U10",
+          "title": "U10. Derechos y deberes del periodista",
+          "order": 10,
+          "lessonIds": [
+            "codigo-u10-derechos-y-deberes-del-periodista-l01",
+            "codigo-u10-derechos-y-deberes-del-periodista-l02",
+            "codigo-u10-derechos-y-deberes-del-periodista-l03",
+            "codigo-u10-derechos-y-deberes-del-periodista-l04"
+          ],
+          "reviewNodeId": "codigo-u10-derechos-y-deberes-del-periodista-review",
+          "challengeNodeId": "codigo-u10-derechos-y-deberes-del-periodista-challenge"
+        },
+        {
+          "id": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad",
+          "blueprintUnitId": "U11",
+          "title": "U11. Código deontológico: concepto, función y utilidad",
+          "order": 11,
+          "lessonIds": [
+            "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-l01",
+            "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-l02",
+            "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-l03"
+          ],
+          "reviewNodeId": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-review",
+          "challengeNodeId": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-challenge"
+        },
+        {
+          "id": "codigo-u12-historia-internacional-y-europea-de-los-codigos",
+          "blueprintUnitId": "U12",
+          "title": "U12. Historia internacional y europea de los códigos",
+          "order": 12,
+          "lessonIds": [
+            "codigo-u12-historia-internacional-y-europea-de-los-codigos-l01",
+            "codigo-u12-historia-internacional-y-europea-de-los-codigos-l02",
+            "codigo-u12-historia-internacional-y-europea-de-los-codigos-l03"
+          ],
+          "reviewNodeId": "codigo-u12-historia-internacional-y-europea-de-los-codigos-review",
+          "challengeNodeId": "codigo-u12-historia-internacional-y-europea-de-los-codigos-challenge"
+        },
+        {
+          "id": "codigo-u13-espana-fape-y-estatuto-profesional",
+          "blueprintUnitId": "U13",
+          "title": "U13. España, FAPE y estatuto profesional",
+          "order": 13,
+          "lessonIds": [
+            "codigo-u13-espana-fape-y-estatuto-profesional-l01",
+            "codigo-u13-espana-fape-y-estatuto-profesional-l02",
+            "codigo-u13-espana-fape-y-estatuto-profesional-l03",
+            "codigo-u13-espana-fape-y-estatuto-profesional-l04"
+          ],
+          "reviewNodeId": "codigo-u13-espana-fape-y-estatuto-profesional-review",
+          "challengeNodeId": "codigo-u13-espana-fape-y-estatuto-profesional-challenge"
+        }
+      ]
+    },
+    {
+      "id": "codigo-section-d",
+      "title": "Section D. comentario de texto와 실제 사례",
+      "order": 4,
+      "units": [
+        {
+          "id": "codigo-u14-metodo-de-comentario-de-texto",
+          "blueprintUnitId": "U14",
+          "title": "U14. Método de comentario de texto",
+          "order": 14,
+          "lessonIds": [
+            "codigo-u14-metodo-de-comentario-de-texto-l01",
+            "codigo-u14-metodo-de-comentario-de-texto-l02",
+            "codigo-u14-metodo-de-comentario-de-texto-l03"
+          ],
+          "reviewNodeId": "codigo-u14-metodo-de-comentario-de-texto-review",
+          "challengeNodeId": "codigo-u14-metodo-de-comentario-de-texto-challenge"
+        },
+        {
+          "id": "codigo-u15-casos-aplicados-fepet-y-antonio-campos",
+          "blueprintUnitId": "U15",
+          "title": "U15. Casos aplicados: FEPET y Antonio Campos",
+          "order": 15,
+          "lessonIds": [
+            "codigo-u15-casos-aplicados-fepet-y-antonio-campos-l01",
+            "codigo-u15-casos-aplicados-fepet-y-antonio-campos-l02",
+            "codigo-u15-casos-aplicados-fepet-y-antonio-campos-l03",
+            "codigo-u15-casos-aplicados-fepet-y-antonio-campos-l04"
+          ],
+          "reviewNodeId": "codigo-u15-casos-aplicados-fepet-y-antonio-campos-review",
+          "challengeNodeId": "codigo-u15-casos-aplicados-fepet-y-antonio-campos-challenge"
+        }
+      ]
+    },
     {
       "id": "discurso-s01",
       "courseId": "discurso",
@@ -3600,6 +3881,3636 @@
     }
   ],
   "lessonPlans": [
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u01-periodismo-imprescindible-y-servicio-publico",
+      "lessonId": "codigo-u01-periodismo-imprescindible-y-servicio-publico-l01",
+      "blueprintUnitId": "U01",
+      "blueprintLessonId": "L01",
+      "title": "L01. 왜 'periodismo imprescindible'인가",
+      "lessonType": "learn",
+      "objective": "Reconocer por qué el periodismo profesional resulta imprescindible para la vida democrática.",
+      "focus": "전문 저널리즘의 존재 이유와 사회적 정당성",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "periodismo-imprescindible",
+        "servicio-publico"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U01 L01: 왜 'periodismo imprescindible'인가"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "전문 저널리즘의 존재 이유와 사회적 정당성"
+        },
+        {
+          "sourceDocId": "PI",
+          "anchor": "전문 저널리즘의 존재 이유와 사회적 정당성"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "전문 저널리즘의 존재 이유와 사회적 정당성"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u01-periodismo-imprescindible-y-servicio-publico",
+      "lessonId": "codigo-u01-periodismo-imprescindible-y-servicio-publico-l02",
+      "blueprintUnitId": "U01",
+      "blueprintLessonId": "L02",
+      "title": "L02. 정보·의견·해석의 구분",
+      "lessonType": "practice",
+      "objective": "Distinguir información, opinión e interpretación dentro del trabajo periodístico.",
+      "focus": "información/opinión/interpretación 구별",
+      "prerequisiteLessonIds": [
+        "codigo-u01-periodismo-imprescindible-y-servicio-publico-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "informacion",
+        "opinion",
+        "interpretacion"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U01 L02: 정보·의견·해석의 구분"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "información/opinión/interpretación 구별"
+        },
+        {
+          "sourceDocId": "PI",
+          "anchor": "información/opinión/interpretación 구별"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "información/opinión/interpretación 구별"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u01-periodismo-imprescindible-y-servicio-publico",
+      "lessonId": "codigo-u01-periodismo-imprescindible-y-servicio-publico-l03",
+      "blueprintUnitId": "U01",
+      "blueprintLessonId": "L03",
+      "title": "L03. interés público vs interés del público",
+      "lessonType": "practice",
+      "objective": "Diferenciar el interés público del mero interés del público o de la audiencia.",
+      "focus": "공익성과 대중적 흥미의 충돌",
+      "prerequisiteLessonIds": [
+        "codigo-u01-periodismo-imprescindible-y-servicio-publico-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "interes-publico",
+        "interes-del-publico"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U01 L03: interés público vs interés del público"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "공익성과 대중적 흥미의 충돌"
+        },
+        {
+          "sourceDocId": "PI",
+          "anchor": "공익성과 대중적 흥미의 충돌"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "공익성과 대중적 흥미의 충돌"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u01-periodismo-imprescindible-y-servicio-publico",
+      "lessonId": "codigo-u01-periodismo-imprescindible-y-servicio-publico-l04",
+      "blueprintUnitId": "U01",
+      "blueprintLessonId": "L04",
+      "title": "L04. 플랫폼, posverdad, fake news 시대",
+      "lessonType": "story",
+      "objective": "Explicar el papel del periodismo profesional frente a plataformas, posverdad y noticias falsas.",
+      "focus": "플랫폼 논리와 허위정보 시대의 윤리",
+      "prerequisiteLessonIds": [
+        "codigo-u01-periodismo-imprescindible-y-servicio-publico-l03"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "plataformas",
+        "posverdad",
+        "fake-news"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U01 L04: 플랫폼, posverdad, fake news 시대"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "플랫폼 논리와 허위정보 시대의 윤리"
+        },
+        {
+          "sourceDocId": "PI",
+          "anchor": "플랫폼 논리와 허위정보 시대의 윤리"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "플랫폼 논리와 허위정보 시대의 윤리"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u02-profesion-oficio-y-mediacion",
+      "lessonId": "codigo-u02-profesion-oficio-y-mediacion-l01",
+      "blueprintUnitId": "U02",
+      "blueprintLessonId": "L01",
+      "title": "L01. oficio가 아니라 actividad profesional",
+      "lessonType": "learn",
+      "objective": "Definir el periodismo como actividad profesional intelectual y no como simple oficio.",
+      "focus": "직업성과 전문성의 차이",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "actividad-profesional",
+        "oficio-vs-profesion"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U02 L01: oficio가 아니라 actividad profesional"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "직업성과 전문성의 차이"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "직업성과 전문성의 차이"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u02-profesion-oficio-y-mediacion",
+      "lessonId": "codigo-u02-profesion-oficio-y-mediacion-l02",
+      "blueprintUnitId": "U02",
+      "blueprintLessonId": "L02",
+      "title": "L02. selección, jerarquización, contextualización, verificación",
+      "lessonType": "practice",
+      "objective": "Identificar selección, jerarquización, contextualización y verificación como rutinas profesionales.",
+      "focus": "뉴스 생산의 핵심 루틴",
+      "prerequisiteLessonIds": [
+        "codigo-u02-profesion-oficio-y-mediacion-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "seleccion",
+        "jerarquizacion",
+        "contextualizacion",
+        "verificacion"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U02 L02: selección, jerarquización, contextualización, verificación"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "뉴스 생산의 핵심 루틴"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "뉴스 생산의 핵심 루틴"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u02-profesion-oficio-y-mediacion",
+      "lessonId": "codigo-u02-profesion-oficio-y-mediacion-l03",
+      "blueprintUnitId": "U02",
+      "blueprintLessonId": "L03",
+      "title": "L03. intermediario vs mediador",
+      "lessonType": "practice",
+      "objective": "Contrastar la figura del intermediario con la del mediador periodístico.",
+      "focus": "중개자와 매개자의 윤리적 차이",
+      "prerequisiteLessonIds": [
+        "codigo-u02-profesion-oficio-y-mediacion-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "intermediario",
+        "mediador",
+        "exclusion"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U02 L03: intermediario vs mediador"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "중개자와 매개자의 윤리적 차이"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "중개자와 매개자의 윤리적 차이"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u02-profesion-oficio-y-mediacion",
+      "lessonId": "codigo-u02-profesion-oficio-y-mediacion-l04",
+      "blueprintUnitId": "U02",
+      "blueprintLessonId": "L04",
+      "title": "L04. comunicación ≠ periodismo",
+      "lessonType": "story",
+      "objective": "Separar la comunicación social genérica del periodismo profesional.",
+      "focus": "새로운 정보 발신자와 직업 저널리스트의 구별",
+      "prerequisiteLessonIds": [
+        "codigo-u02-profesion-oficio-y-mediacion-l03"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "comunicacion-vs-periodismo",
+        "emisores-sociales"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U02 L04: comunicación ≠ periodismo"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "새로운 정보 발신자와 직업 저널리스트의 구별"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "새로운 정보 발신자와 직업 저널리스트의 구별"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u03-democracia-opinion-publica-y-cuarto-poder",
+      "lessonId": "codigo-u03-democracia-opinion-publica-y-cuarto-poder-l01",
+      "blueprintUnitId": "U03",
+      "blueprintLessonId": "L01",
+      "title": "L01. no hay democracia sin periodismo",
+      "lessonType": "learn",
+      "objective": "Explicar la relación de dependencia entre democracia y periodismo.",
+      "focus": "민주주의와 저널리즘의 상호 의존",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "democracia",
+        "periodismo"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U03 L01: no hay democracia sin periodismo"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "민주주의와 저널리즘의 상호 의존"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "민주주의와 저널리즘의 상호 의존"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u03-democracia-opinion-publica-y-cuarto-poder",
+      "lessonId": "codigo-u03-democracia-opinion-publica-y-cuarto-poder-l02",
+      "blueprintUnitId": "U03",
+      "blueprintLessonId": "L02",
+      "title": "L02. 정보 접근과 시민 참여",
+      "lessonType": "practice",
+      "objective": "Relacionar el acceso a información pública con la participación ciudadana.",
+      "focus": "공적 정보와 참여의 연결",
+      "prerequisiteLessonIds": [
+        "codigo-u03-democracia-opinion-publica-y-cuarto-poder-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "informacion-publica",
+        "participacion-ciudadana"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U03 L02: 정보 접근과 시민 참여"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "공적 정보와 참여의 연결"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "공적 정보와 참여의 연결"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u03-democracia-opinion-publica-y-cuarto-poder",
+      "lessonId": "codigo-u03-democracia-opinion-publica-y-cuarto-poder-l03",
+      "blueprintUnitId": "U03",
+      "blueprintLessonId": "L03",
+      "title": "L03. opinión pública, debate y control del poder",
+      "lessonType": "practice",
+      "objective": "Comprender cómo el periodismo forma opinión pública, debate y control del poder.",
+      "focus": "공론장과 권력 감시",
+      "prerequisiteLessonIds": [
+        "codigo-u03-democracia-opinion-publica-y-cuarto-poder-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "opinion-publica",
+        "debate-publico",
+        "control-del-poder"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U03 L03: opinión pública, debate y control del poder"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "공론장과 권력 감시"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "공론장과 권력 감시"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u03-democracia-opinion-publica-y-cuarto-poder",
+      "lessonId": "codigo-u03-democracia-opinion-publica-y-cuarto-poder-l04",
+      "blueprintUnitId": "U03",
+      "blueprintLessonId": "L04",
+      "title": "L04. pluralidad de medios y concentración",
+      "lessonType": "story",
+      "objective": "Reconocer la importancia democrática de la pluralidad de medios y el riesgo de concentración.",
+      "focus": "매체 집중과 다원성의 위기",
+      "prerequisiteLessonIds": [
+        "codigo-u03-democracia-opinion-publica-y-cuarto-poder-l03"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "pluralidad",
+        "concentracion-mediatica"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U03 L04: pluralidad de medios y concentración"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "매체 집중과 다원성의 위기"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "매체 집중과 다원성의 위기"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u04-derecho-etica-y-marco-constitucional",
+      "lessonId": "codigo-u04-derecho-etica-y-marco-constitucional-l01",
+      "blueprintUnitId": "U04",
+      "blueprintLessonId": "L01",
+      "title": "L01. 법은 도구, 윤리는 지향",
+      "lessonType": "learn",
+      "objective": "Distinguir el Derecho como mínimo exigible de la ética como orientación profesional.",
+      "focus": "Derecho와 ética의 기능 차이",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "derecho-vs-etica",
+        "minimos-legales"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U04 L01: 법은 도구, 윤리는 지향"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "Derecho와 ética의 기능 차이"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "Derecho와 ética의 기능 차이"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u04-derecho-etica-y-marco-constitucional",
+      "lessonId": "codigo-u04-derecho-etica-y-marco-constitucional-l02",
+      "blueprintUnitId": "U04",
+      "blueprintLessonId": "L02",
+      "title": "L02. Estado social y democrático de Derecho",
+      "lessonType": "practice",
+      "objective": "Situar el periodismo dentro del Estado social y democrático de Derecho.",
+      "focus": "스페인 헌정 질서의 기초",
+      "prerequisiteLessonIds": [
+        "codigo-u04-derecho-etica-y-marco-constitucional-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "articulo-1",
+        "estado-social-democratico"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U04 L02: Estado social y democrático de Derecho"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "스페인 헌정 질서의 기초"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "스페인 헌정 질서의 기초"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u04-derecho-etica-y-marco-constitucional",
+      "lessonId": "codigo-u04-derecho-etica-y-marco-constitucional-l03",
+      "blueprintUnitId": "U04",
+      "blueprintLessonId": "L03",
+      "title": "L03. Artículo 20: 표현의 자유와 정보의 자유",
+      "lessonType": "practice",
+      "objective": "Mapear el artículo 20 a libertad de expresión e información veraz.",
+      "focus": "art.20의 구조와 보장",
+      "prerequisiteLessonIds": [
+        "codigo-u04-derecho-etica-y-marco-constitucional-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "articulo-20",
+        "libertad-expresion",
+        "informacion-veraz"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U04 L03: Artículo 20: 표현의 자유와 정보의 자유"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "art.20의 구조와 보장"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "art.20의 구조와 보장"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u04-derecho-etica-y-marco-constitucional",
+      "lessonId": "codigo-u04-derecho-etica-y-marco-constitucional-l04",
+      "blueprintUnitId": "U04",
+      "blueprintLessonId": "L04",
+      "title": "L04. honor·intimidad·imagen·infancia와의 충돌",
+      "lessonType": "story",
+      "objective": "Diagnosticar conflictos entre información, honor, intimidad, imagen e infancia.",
+      "focus": "기본권 충돌 판별",
+      "prerequisiteLessonIds": [
+        "codigo-u04-derecho-etica-y-marco-constitucional-l03"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "honor",
+        "intimidad",
+        "propia-imagen",
+        "infancia"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U04 L04: honor·intimidad·imagen·infancia와의 충돌"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "기본권 충돌 판별"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "기본권 충돌 판별"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u05-etica-moral-y-caracter",
+      "lessonId": "codigo-u05-etica-moral-y-caracter-l01",
+      "blueprintUnitId": "U05",
+      "blueprintLessonId": "L01",
+      "title": "L01. ética vs moral vs deontología",
+      "lessonType": "learn",
+      "objective": "Distinguir ética, moral y deontología profesional.",
+      "focus": "세 개념의 정확한 구별",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "etica",
+        "moral",
+        "deontologia"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U05 L01: ética vs moral vs deontología"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "세 개념의 정확한 구별"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "세 개념의 정확한 구별"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u05-etica-moral-y-caracter",
+      "lessonId": "codigo-u05-etica-moral-y-caracter-l02",
+      "blueprintUnitId": "U05",
+      "blueprintLessonId": "L02",
+      "title": "L02. ethos, hábito, carácter moral",
+      "lessonType": "practice",
+      "objective": "Relacionar ethos, hábito y carácter moral con la formación del periodista.",
+      "focus": "Aristóteles와 반복 행위",
+      "prerequisiteLessonIds": [
+        "codigo-u05-etica-moral-y-caracter-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "ethos",
+        "habito",
+        "caracter-moral"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U05 L02: ethos, hábito, carácter moral"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "Aristóteles와 반복 행위"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "Aristóteles와 반복 행위"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u05-etica-moral-y-caracter",
+      "lessonId": "codigo-u05-etica-moral-y-caracter-l03",
+      "blueprintUnitId": "U05",
+      "blueprintLessonId": "L03",
+      "title": "L03. 교육, excelencia, felicidad profesional",
+      "lessonType": "practice",
+      "objective": "Conectar educación ética, excelencia y crecimiento profesional.",
+      "focus": "윤리적 탁월성과 직업적 성장",
+      "prerequisiteLessonIds": [
+        "codigo-u05-etica-moral-y-caracter-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "excelencia",
+        "felicidad-profesional",
+        "educacion-etica"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U05 L03: 교육, excelencia, felicidad profesional"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "윤리적 탁월성과 직업적 성장"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "윤리적 탁월성과 직업적 성장"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad",
+      "lessonId": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-l01",
+      "blueprintUnitId": "U06",
+      "blueprintLessonId": "L01",
+      "title": "L01. ética autoritaria vs humanista",
+      "lessonType": "learn",
+      "objective": "Comparar ética autoritaria y ética humanista.",
+      "focus": "권위주의 윤리와 인간주의 윤리의 비교",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "etica-autoritaria",
+        "etica-humanista"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U06 L01: ética autoritaria vs humanista"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "권위주의 윤리와 인간주의 윤리의 비교"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "권위주의 윤리와 인간주의 윤리의 비교"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad",
+      "lessonId": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-l02",
+      "blueprintUnitId": "U06",
+      "blueprintLessonId": "L02",
+      "title": "L02. Kant와 imperativo categórico",
+      "lessonType": "practice",
+      "objective": "Aplicar la idea kantiana de tratar a la persona como fin y no como medio.",
+      "focus": "인간을 수단이 아닌 목적으로",
+      "prerequisiteLessonIds": [
+        "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "kant",
+        "imperativo-categorico"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U06 L02: Kant와 imperativo categórico"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "인간을 수단이 아닌 목적으로"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "인간을 수단이 아닌 목적으로"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad",
+      "lessonId": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-l03",
+      "blueprintUnitId": "U06",
+      "blueprintLessonId": "L03",
+      "title": "L03. tolerancia와 diversidad",
+      "lessonType": "practice",
+      "objective": "Aplicar la tolerancia respetando los límites de la dignidad humana.",
+      "focus": "관용과 인권의 경계",
+      "prerequisiteLessonIds": [
+        "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "tolerancia",
+        "diversidad",
+        "limites-de-la-tolerancia"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U06 L03: tolerancia와 diversidad"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "관용과 인권의 경계"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "관용과 인권의 경계"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad",
+      "lessonId": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-l04",
+      "blueprintUnitId": "U06",
+      "blueprintLessonId": "L04",
+      "title": "L04. libertad, igualdad, no discriminación",
+      "lessonType": "story",
+      "objective": "Relacionar libertad, igualdad y no discriminación con la práctica periodística.",
+      "focus": "평등권, 차별금지, 기회평등",
+      "prerequisiteLessonIds": [
+        "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-l03"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "libertad",
+        "igualdad",
+        "no-discriminacion"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U06 L04: libertad, igualdad, no discriminación"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "평등권, 차별금지, 기회평등"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "평등권, 차별금지, 기회평등"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u07-dignidad-humana-y-derechos-fundamentales",
+      "lessonId": "codigo-u07-dignidad-humana-y-derechos-fundamentales-l01",
+      "blueprintUnitId": "U07",
+      "blueprintLessonId": "L01",
+      "title": "L01. dignidad como valor intrínseco",
+      "lessonType": "learn",
+      "objective": "Definir la dignidad como valor intrínseco y universal de toda persona.",
+      "focus": "존엄의 본질과 보편성",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "dignidad-humana",
+        "valor-intrinseco"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U07 L01: dignidad como valor intrínseco"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "존엄의 본질과 보편성"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "존엄의 본질과 보편성"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u07-dignidad-humana-y-derechos-fundamentales",
+      "lessonId": "codigo-u07-dignidad-humana-y-derechos-fundamentales-l02",
+      "blueprintUnitId": "U07",
+      "blueprintLessonId": "L02",
+      "title": "L02. Artículo 10 CE와 정치질서의 기초",
+      "lessonType": "practice",
+      "objective": "Vincular el artículo 10 CE con la dignidad y el fundamento del orden político.",
+      "focus": "존엄과 기본권의 헌법적 위치",
+      "prerequisiteLessonIds": [
+        "codigo-u07-dignidad-humana-y-derechos-fundamentales-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "articulo-10",
+        "orden-politico",
+        "paz-social"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U07 L02: Artículo 10 CE와 정치질서의 기초"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "존엄과 기본권의 헌법적 위치"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "존엄과 기본권의 헌법적 위치"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u07-dignidad-humana-y-derechos-fundamentales",
+      "lessonId": "codigo-u07-dignidad-humana-y-derechos-fundamentales-l03",
+      "blueprintUnitId": "U07",
+      "blueprintLessonId": "L03",
+      "title": "L03. 존엄에서 파생되는 원칙들",
+      "lessonType": "practice",
+      "objective": "Derivar principios profesionales desde la dignidad humana.",
+      "focus": "respeto, no malevolencia, benevolencia, justicia 등",
+      "prerequisiteLessonIds": [
+        "codigo-u07-dignidad-humana-y-derechos-fundamentales-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "respeto",
+        "no-maleficencia",
+        "benevolencia",
+        "justicia"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U07 L03: 존엄에서 파생되는 원칙들"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "respeto, no malevolencia, benevolencia, justicia 등"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "respeto, no malevolencia, benevolencia, justicia 등"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u07-dignidad-humana-y-derechos-fundamentales",
+      "lessonId": "codigo-u07-dignidad-humana-y-derechos-fundamentales-l04",
+      "blueprintUnitId": "U07",
+      "blueprintLessonId": "L04",
+      "title": "L04. vulnerabilidad와 보도 윤리",
+      "lessonType": "story",
+      "objective": "Aplicar la dignidad a víctimas, menores y personas vulnerables.",
+      "focus": "취약한 사람을 다루는 보도 기준",
+      "prerequisiteLessonIds": [
+        "codigo-u07-dignidad-humana-y-derechos-fundamentales-l03"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "vulnerabilidad",
+        "menores",
+        "victimas",
+        "dolor"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U07 L04: vulnerabilidad와 보도 윤리"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "취약한 사람을 다루는 보도 기준"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "취약한 사람을 다루는 보도 기준"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u08-dignidad-profesional-y-anti-cinismo",
+      "lessonId": "codigo-u08-dignidad-profesional-y-anti-cinismo-l01",
+      "blueprintUnitId": "U08",
+      "blueprintLessonId": "L01",
+      "title": "L01. El periodismo no es para cínicos",
+      "lessonType": "learn",
+      "objective": "Explicar por qué el cinismo es incompatible con el periodismo.",
+      "focus": "Kapuscinski와 anti-cinismo",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "anti-cinismo",
+        "kapuscinski",
+        "compromiso"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U08 L01: El periodismo no es para cínicos"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "Kapuscinski와 anti-cinismo"
+        },
+        {
+          "sourceDocId": "PI",
+          "anchor": "Kapuscinski와 anti-cinismo"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "Kapuscinski와 anti-cinismo"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u08-dignidad-profesional-y-anti-cinismo",
+      "lessonId": "codigo-u08-dignidad-profesional-y-anti-cinismo-l02",
+      "blueprintUnitId": "U08",
+      "blueprintLessonId": "L02",
+      "title": "L02. dignidad profesional según Brajnovic",
+      "lessonType": "practice",
+      "objective": "Reconocer la dignidad profesional en sentido positivo y negativo según Brajnovic.",
+      "focus": "직업적 존엄의 긍정/부정 측면",
+      "prerequisiteLessonIds": [
+        "codigo-u08-dignidad-profesional-y-anti-cinismo-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "dignidad-profesional",
+        "brajnovic",
+        "metodos-ilicitos"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U08 L02: dignidad profesional según Brajnovic"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "직업적 존엄의 긍정/부정 측면"
+        },
+        {
+          "sourceDocId": "PI",
+          "anchor": "직업적 존엄의 긍정/부정 측면"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "직업적 존엄의 긍정/부정 측면"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u08-dignidad-profesional-y-anti-cinismo",
+      "lessonId": "codigo-u08-dignidad-profesional-y-anti-cinismo-l03",
+      "blueprintUnitId": "U08",
+      "blueprintLessonId": "L03",
+      "title": "L03. 왜 윤리적인가: credibilidad, calidad, identidad",
+      "lessonType": "practice",
+      "objective": "Relacionar ética, credibilidad, calidad informativa e identidad profesional.",
+      "focus": "윤리와 품질·신뢰의 상호작용",
+      "prerequisiteLessonIds": [
+        "codigo-u08-dignidad-profesional-y-anti-cinismo-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "credibilidad",
+        "calidad-informativa",
+        "identidad-profesional"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U08 L03: 왜 윤리적인가: credibilidad, calidad, identidad"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "윤리와 품질·신뢰의 상호작용"
+        },
+        {
+          "sourceDocId": "PI",
+          "anchor": "윤리와 품질·신뢰의 상호작용"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "윤리와 품질·신뢰의 상호작용"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil",
+      "lessonId": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-l01",
+      "blueprintUnitId": "U09",
+      "blueprintLessonId": "L01",
+      "title": "L01. 왜 시장도 국가도 충분하지 않은가",
+      "lessonType": "learn",
+      "objective": "Explicar por qué ni el mercado ni el Estado bastan por sí solos para regular el periodismo.",
+      "focus": "규제 양극단의 한계",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "caso aplicado"
+        },
+        {
+          "count": 2,
+          "category": "verificación/fuentes"
+        },
+        {
+          "count": 2,
+          "category": "corrección/redacción"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "mercado",
+        "estado",
+        "regulacion"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U09 L01: 왜 시장도 국가도 충분하지 않은가"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "규제 양극단의 한계"
+        },
+        {
+          "sourceDocId": "PI",
+          "anchor": "규제 양극단의 한계"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "규제 양극단의 한계"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil",
+      "lessonId": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-l02",
+      "blueprintUnitId": "U09",
+      "blueprintLessonId": "L02",
+      "title": "L02. interés del público vs interés público",
+      "lessonType": "practice",
+      "objective": "Diagnosticar la confusión entre interés del público e interés público.",
+      "focus": "상업 논리와 공적 가치의 충돌",
+      "prerequisiteLessonIds": [
+        "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "caso aplicado"
+        },
+        {
+          "count": 2,
+          "category": "verificación/fuentes"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "interes-del-publico",
+        "interes-publico",
+        "audiencia"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U09 L02: interés del público vs interés público"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "상업 논리와 공적 가치의 충돌"
+        },
+        {
+          "sourceDocId": "PI",
+          "anchor": "상업 논리와 공적 가치의 충돌"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "상업 논리와 공적 가치의 충돌"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil",
+      "lessonId": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-l03",
+      "blueprintUnitId": "U09",
+      "blueprintLessonId": "L03",
+      "title": "L03. autorregulación이라는 중간 해법",
+      "lessonType": "practice",
+      "objective": "Definir la autorregulación como responsabilidad voluntaria de la sociedad civil profesional.",
+      "focus": "자발성·책임·사회적 통제",
+      "prerequisiteLessonIds": [
+        "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "caso aplicado"
+        },
+        {
+          "count": 2,
+          "category": "verificación/fuentes"
+        },
+        {
+          "count": 2,
+          "category": "corrección/redacción"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "autorregulacion",
+        "responsabilidad",
+        "sociedad-civil"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U09 L03: autorregulación이라는 중간 해법"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "자발성·책임·사회적 통제"
+        },
+        {
+          "sourceDocId": "PI",
+          "anchor": "자발성·책임·사회적 통제"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "자발성·책임·사회적 통제"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil",
+      "lessonId": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-l04",
+      "blueprintUnitId": "U09",
+      "blueprintLessonId": "L04",
+      "title": "L04. mecanismos de autorregulación",
+      "lessonType": "story",
+      "objective": "Reconocer mecanismos de autorregulación y su función ética.",
+      "focus": "defensor del lector, comité ética 등",
+      "prerequisiteLessonIds": [
+        "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-l03"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "caso aplicado"
+        },
+        {
+          "count": 2,
+          "category": "verificación/fuentes"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "defensor-del-lector",
+        "comite-etica",
+        "mecanismos-autorregulacion"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U09 L04: mecanismos de autorregulación"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "defensor del lector, comité ética 등"
+        },
+        {
+          "sourceDocId": "PI",
+          "anchor": "defensor del lector, comité ética 등"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "defensor del lector, comité ética 등"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u10-derechos-y-deberes-del-periodista",
+      "lessonId": "codigo-u10-derechos-y-deberes-del-periodista-l01",
+      "blueprintUnitId": "U10",
+      "blueprintLessonId": "L01",
+      "title": "L01. salario, fuentes, autor, secreto, conciencia",
+      "lessonType": "learn",
+      "objective": "Organizar los derechos básicos del periodista frente a fuentes, secreto y conciencia.",
+      "focus": "기자의 핵심 권리",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "caso aplicado"
+        },
+        {
+          "count": 2,
+          "category": "verificación/fuentes"
+        },
+        {
+          "count": 2,
+          "category": "corrección/redacción"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "derechos-del-periodista",
+        "secreto-profesional",
+        "clausula-de-conciencia"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U10 L01: salario, fuentes, autor, secreto, conciencia"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "기자의 핵심 권리"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "기자의 핵심 권리"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u10-derechos-y-deberes-del-periodista",
+      "lessonId": "codigo-u10-derechos-y-deberes-del-periodista-l02",
+      "blueprintUnitId": "U10",
+      "blueprintLessonId": "L02",
+      "title": "L02. 자기 자신·대중·동료·회사에 대한 의무",
+      "lessonType": "practice",
+      "objective": "Clasificar los deberes del periodista ante sí mismo, el público, colegas y empresa.",
+      "focus": "의무의 4분할",
+      "prerequisiteLessonIds": [
+        "codigo-u10-derechos-y-deberes-del-periodista-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "caso aplicado"
+        },
+        {
+          "count": 2,
+          "category": "verificación/fuentes"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "deberes-del-periodista",
+        "publico",
+        "colegas",
+        "empresa"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U10 L02: 자기 자신·대중·동료·회사에 대한 의무"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "의무의 4분할"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "의무의 4분할"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u10-derechos-y-deberes-del-periodista",
+      "lessonId": "codigo-u10-derechos-y-deberes-del-periodista-l03",
+      "blueprintUnitId": "U10",
+      "blueprintLessonId": "L03",
+      "title": "L03. 방법의 윤리: soborno, presión, off the record",
+      "lessonType": "practice",
+      "objective": "Evaluar la legitimidad ética de los métodos de obtención de información.",
+      "focus": "취재 수단의 정당성",
+      "prerequisiteLessonIds": [
+        "codigo-u10-derechos-y-deberes-del-periodista-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "caso aplicado"
+        },
+        {
+          "count": 2,
+          "category": "verificación/fuentes"
+        },
+        {
+          "count": 2,
+          "category": "corrección/redacción"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "soborno",
+        "presion",
+        "off-the-record",
+        "metodos-dignos"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U10 L03: 방법의 윤리: soborno, presión, off the record"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "취재 수단의 정당성"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "취재 수단의 정당성"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u10-derechos-y-deberes-del-periodista",
+      "lessonId": "codigo-u10-derechos-y-deberes-del-periodista-l04",
+      "blueprintUnitId": "U10",
+      "blueprintLessonId": "L04",
+      "title": "L04. transparencia, propiedad intelectual, formación continua",
+      "lessonType": "story",
+      "objective": "Relacionar transparencia, propiedad intelectual y formación continua con la profesión.",
+      "focus": "지속 가능한 직업 윤리",
+      "prerequisiteLessonIds": [
+        "codigo-u10-derechos-y-deberes-del-periodista-l03"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "caso aplicado"
+        },
+        {
+          "count": 2,
+          "category": "verificación/fuentes"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "transparencia",
+        "propiedad-intelectual",
+        "formacion-continua"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U10 L04: transparencia, propiedad intelectual, formación continua"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "지속 가능한 직업 윤리"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "지속 가능한 직업 윤리"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad",
+      "lessonId": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-l01",
+      "blueprintUnitId": "U11",
+      "blueprintLessonId": "L01",
+      "title": "L01. ¿Qué es un código deontológico?",
+      "lessonType": "learn",
+      "objective": "Definir qué es un código deontológico y qué elementos contiene.",
+      "focus": "정의와 구성 요소",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "codigo-deontologico",
+        "normas",
+        "principios"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U11 L01: ¿Qué es un código deontológico?"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "정의와 구성 요소"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "정의와 구성 요소"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad",
+      "lessonId": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-l02",
+      "blueprintUnitId": "U11",
+      "blueprintLessonId": "L02",
+      "title": "L02. Hipócrates에서 배우는 비교 프레임",
+      "lessonType": "practice",
+      "objective": "Usar el modelo hipocrático como marco comparativo de compromiso profesional.",
+      "focus": "코드의 보편 구조와 비교",
+      "prerequisiteLessonIds": [
+        "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "hipocrates",
+        "compromiso-personal",
+        "comparacion-profesional"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U11 L02: Hipócrates에서 배우는 비교 프레임"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "코드의 보편 구조와 비교"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "코드의 보편 구조와 비교"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad",
+      "lessonId": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-l03",
+      "blueprintUnitId": "U11",
+      "blueprintLessonId": "L03",
+      "title": "L03. prestigio, defensa, utilidad y críticas",
+      "lessonType": "practice",
+      "objective": "Explicar la utilidad, defensa, prestigio y límites de los códigos.",
+      "focus": "유용성과 한계",
+      "prerequisiteLessonIds": [
+        "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "prestigio",
+        "defensa-profesional",
+        "criticas-del-codigo"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U11 L03: prestigio, defensa, utilidad y críticas"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "유용성과 한계"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "유용성과 한계"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u12-historia-internacional-y-europea-de-los-codigos",
+      "lessonId": "codigo-u12-historia-internacional-y-europea-de-los-codigos-l01",
+      "blueprintUnitId": "U12",
+      "blueprintLessonId": "L01",
+      "title": "L01. 1690에서 20세기 초기 코드까지",
+      "lessonType": "learn",
+      "objective": "Reconocer hitos iniciales de la historia de los códigos periodísticos.",
+      "focus": "초기 윤리 선언과 대중지 시대",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "historia-codigos",
+        "1690",
+        "prensa-masas"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U12 L01: 1690에서 20세기 초기 코드까지"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "초기 윤리 선언과 대중지 시대"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "초기 윤리 선언과 대중지 시대"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u12-historia-internacional-y-europea-de-los-codigos",
+      "lessonId": "codigo-u12-historia-internacional-y-europea-de-los-codigos-l02",
+      "blueprintUnitId": "U12",
+      "blueprintLessonId": "L02",
+      "title": "L02. DDHH 1948, Munich 1971, UNESCO 1983",
+      "lessonType": "practice",
+      "objective": "Identificar los documentos internacionales clave: DDHH, Munich y UNESCO.",
+      "focus": "국제 문서의 핵심",
+      "prerequisiteLessonIds": [
+        "codigo-u12-historia-internacional-y-europea-de-los-codigos-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "matching/cloze"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "ddhh-1948",
+        "munich-1971",
+        "unesco-1983"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U12 L02: DDHH 1948, Munich 1971, UNESCO 1983"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "국제 문서의 핵심"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "국제 문서의 핵심"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u12-historia-internacional-y-europea-de-los-codigos",
+      "lessonId": "codigo-u12-historia-internacional-y-europea-de-los-codigos-l03",
+      "blueprintUnitId": "U12",
+      "blueprintLessonId": "L03",
+      "title": "L03. Código Europeo 1993와 디지털 시대의 과제",
+      "lessonType": "practice",
+      "objective": "Relacionar el Código Europeo de 1993 con los retos de la era digital.",
+      "focus": "유럽 규범과 현대 도전",
+      "prerequisiteLessonIds": [
+        "codigo-u12-historia-internacional-y-europea-de-los-codigos-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "multiple-choice"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "aplicación"
+        },
+        {
+          "count": 2,
+          "category": "verificación/relación normativa"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "codigo-europeo-1993",
+        "desafios-digitales"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U12 L03: Código Europeo 1993와 디지털 시대의 과제"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "유럽 규범과 현대 도전"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "유럽 규범과 현대 도전"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u13-espana-fape-y-estatuto-profesional",
+      "lessonId": "codigo-u13-espana-fape-y-estatuto-profesional-l01",
+      "blueprintUnitId": "U13",
+      "blueprintLessonId": "L01",
+      "title": "L01. 스페인 특수성: 국가 통제에서 자율규제로",
+      "lessonType": "learn",
+      "objective": "Explicar la evolución española desde control estatal hacia autorregulación.",
+      "focus": "19~20세기 규제 역사",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "caso aplicado"
+        },
+        {
+          "count": 2,
+          "category": "verificación/fuentes"
+        },
+        {
+          "count": 2,
+          "category": "corrección/redacción"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "historia-espana",
+        "control-estatal",
+        "autorregulacion"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U13 L01: 스페인 특수성: 국가 통제에서 자율규제로"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "19~20세기 규제 역사"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "19~20세기 규제 역사"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u13-espana-fape-y-estatuto-profesional",
+      "lessonId": "codigo-u13-espana-fape-y-estatuto-profesional-l02",
+      "blueprintUnitId": "U13",
+      "blueprintLessonId": "L02",
+      "title": "L02. Catalunya 코드, FAPE, Comisión de Quejas",
+      "lessonType": "practice",
+      "objective": "Identificar Catalunya, FAPE y Comisión de Quejas como referencias de autorregulación.",
+      "focus": "스페인 자율규제 기관들",
+      "prerequisiteLessonIds": [
+        "codigo-u13-espana-fape-y-estatuto-profesional-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "caso aplicado"
+        },
+        {
+          "count": 2,
+          "category": "verificación/fuentes"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "codigo-catalunya",
+        "fape",
+        "comision-de-quejas"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U13 L02: Catalunya 코드, FAPE, Comisión de Quejas"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "스페인 자율규제 기관들"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "스페인 자율규제 기관들"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u13-espana-fape-y-estatuto-profesional",
+      "lessonId": "codigo-u13-espana-fape-y-estatuto-profesional-l03",
+      "blueprintUnitId": "U13",
+      "blueprintLessonId": "L03",
+      "title": "L03. FAPE의 preámbulo, principios, estatuto, actuación",
+      "lessonType": "practice",
+      "objective": "Analizar la estructura FAPE: preámbulo, principios, estatuto y actuación.",
+      "focus": "FAPE 구조 해부",
+      "prerequisiteLessonIds": [
+        "codigo-u13-espana-fape-y-estatuto-profesional-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "caso aplicado"
+        },
+        {
+          "count": 2,
+          "category": "verificación/fuentes"
+        },
+        {
+          "count": 2,
+          "category": "corrección/redacción"
+        },
+        {
+          "count": 1,
+          "category": "mixed review"
+        }
+      ],
+      "skillIds": [
+        "fape-preambulo",
+        "fape-principios",
+        "fape-estatuto",
+        "fape-actuacion"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U13 L03: FAPE의 preámbulo, principios, estatuto, actuación"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "FAPE 구조 해부"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "FAPE 구조 해부"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u13-espana-fape-y-estatuto-profesional",
+      "lessonId": "codigo-u13-espana-fape-y-estatuto-profesional-l04",
+      "blueprintUnitId": "U13",
+      "blueprintLessonId": "L04",
+      "title": "L04. Estatuto del Periodista Profesional과 intrusismo",
+      "lessonType": "story",
+      "objective": "Explicar el debate sobre estatuto profesional e intrusismo.",
+      "focus": "직업 규정 부재와 쟁점",
+      "prerequisiteLessonIds": [
+        "codigo-u13-espana-fape-y-estatuto-profesional-l03"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "concepto"
+        },
+        {
+          "count": 2,
+          "category": "contraste"
+        },
+        {
+          "count": 2,
+          "category": "caso aplicado"
+        },
+        {
+          "count": 2,
+          "category": "verificación/fuentes"
+        },
+        {
+          "count": 2,
+          "category": "corrección"
+        }
+      ],
+      "skillIds": [
+        "estatuto-profesional",
+        "intrusismo",
+        "regulacion-profesional"
+      ],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U13 L04: Estatuto del Periodista Profesional과 intrusismo"
+        },
+        {
+          "sourceDocId": "CV",
+          "anchor": "직업 규정 부재와 쟁점"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "직업 규정 부재와 쟁점"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-d",
+      "unitId": "codigo-u14-metodo-de-comentario-de-texto",
+      "lessonId": "codigo-u14-metodo-de-comentario-de-texto-l01",
+      "blueprintUnitId": "U14",
+      "blueprintLessonId": "L01",
+      "title": "L01. comprensión: hecho, finalidad, argumentos, problema ético",
+      "lessonType": "learn",
+      "objective": "Aplicar la primera fase del comentario: hecho, finalidad, argumentos y problema ético.",
+      "focus": "첫 읽기와 개념 지도 만들기",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "comprensión factual"
+        },
+        {
+          "count": 2,
+          "category": "detección de problema ético"
+        },
+        {
+          "count": 2,
+          "category": "identificación de fuentes/enfoque"
+        },
+        {
+          "count": 2,
+          "category": "referencia FAPE/CE/DDHH"
+        },
+        {
+          "count": 2,
+          "category": "mejora de redacción"
+        },
+        {
+          "count": 1,
+          "category": "mini-reescritura"
+        }
+      ],
+      "skillIds": [
+        "comprension",
+        "hecho-informativo",
+        "finalidad",
+        "problema-etico"
+      ],
+      "sourceDocs": [
+        "BP",
+        "PG",
+        "LG",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U14 L01: comprensión: hecho, finalidad, argumentos, problema ético"
+        },
+        {
+          "sourceDocId": "PG",
+          "anchor": "첫 읽기와 개념 지도 만들기"
+        },
+        {
+          "sourceDocId": "LG",
+          "anchor": "첫 읽기와 개념 지도 만들기"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "첫 읽기와 개념 지도 만들기"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-d",
+      "unitId": "codigo-u14-metodo-de-comentario-de-texto",
+      "lessonId": "codigo-u14-metodo-de-comentario-de-texto-l02",
+      "blueprintUnitId": "U14",
+      "blueprintLessonId": "L02",
+      "title": "L02. tratamiento periodístico 분석",
+      "lessonType": "practice",
+      "objective": "Analizar autor, medio, actualidad, fuentes y enfoque del tratamiento periodístico.",
+      "focus": "autor, medio, actualidad, fuentes, enfoque",
+      "prerequisiteLessonIds": [
+        "codigo-u14-metodo-de-comentario-de-texto-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "comprensión factual"
+        },
+        {
+          "count": 2,
+          "category": "problema ético"
+        },
+        {
+          "count": 2,
+          "category": "fuentes/enfoque"
+        },
+        {
+          "count": 2,
+          "category": "FAPE/CE/DDHH"
+        },
+        {
+          "count": 2,
+          "category": "mejora de redacción"
+        }
+      ],
+      "skillIds": [
+        "tratamiento-periodistico",
+        "autor",
+        "medio",
+        "fuentes",
+        "enfoque"
+      ],
+      "sourceDocs": [
+        "BP",
+        "PG",
+        "LG",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U14 L02: tratamiento periodístico 분석"
+        },
+        {
+          "sourceDocId": "PG",
+          "anchor": "autor, medio, actualidad, fuentes, enfoque"
+        },
+        {
+          "sourceDocId": "LG",
+          "anchor": "autor, medio, actualidad, fuentes, enfoque"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "autor, medio, actualidad, fuentes, enfoque"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-d",
+      "unitId": "codigo-u14-metodo-de-comentario-de-texto",
+      "lessonId": "codigo-u14-metodo-de-comentario-de-texto-l03",
+      "blueprintUnitId": "U14",
+      "blueprintLessonId": "L03",
+      "title": "L03. ensayo redaction: FAPE 인용, 개선안, 결론",
+      "lessonType": "practice",
+      "objective": "Estructurar un ensayo con referencias FAPE, propuesta de mejora y conclusión.",
+      "focus": "완성형 답안 쓰기",
+      "prerequisiteLessonIds": [
+        "codigo-u14-metodo-de-comentario-de-texto-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "comprensión factual"
+        },
+        {
+          "count": 2,
+          "category": "detección de problema ético"
+        },
+        {
+          "count": 2,
+          "category": "identificación de fuentes/enfoque"
+        },
+        {
+          "count": 2,
+          "category": "referencia FAPE/CE/DDHH"
+        },
+        {
+          "count": 2,
+          "category": "mejora de redacción"
+        },
+        {
+          "count": 1,
+          "category": "mini-reescritura"
+        }
+      ],
+      "skillIds": [
+        "redaccion-argumentada",
+        "fape",
+        "mejoras",
+        "conclusion"
+      ],
+      "sourceDocs": [
+        "BP",
+        "PG",
+        "LG",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U14 L03: ensayo redaction: FAPE 인용, 개선안, 결론"
+        },
+        {
+          "sourceDocId": "PG",
+          "anchor": "완성형 답안 쓰기"
+        },
+        {
+          "sourceDocId": "LG",
+          "anchor": "완성형 답안 쓰기"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "완성형 답안 쓰기"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-d",
+      "unitId": "codigo-u15-casos-aplicados-fepet-y-antonio-campos",
+      "lessonId": "codigo-u15-casos-aplicados-fepet-y-antonio-campos-l01",
+      "blueprintUnitId": "U15",
+      "blueprintLessonId": "L01",
+      "title": "L01. Caso FEPET: opacidad, contraste y honor",
+      "lessonType": "learn",
+      "objective": "Aplicar el método al caso FEPET: opacidad, contraste y honor.",
+      "focus": "La Guía del Sur 사례 분석",
+      "prerequisiteLessonIds": [],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "comprensión factual"
+        },
+        {
+          "count": 2,
+          "category": "detección de problema ético"
+        },
+        {
+          "count": 2,
+          "category": "identificación de fuentes/enfoque"
+        },
+        {
+          "count": 2,
+          "category": "referencia FAPE/CE/DDHH"
+        },
+        {
+          "count": 2,
+          "category": "mejora de redacción"
+        },
+        {
+          "count": 1,
+          "category": "mini-reescritura"
+        }
+      ],
+      "skillIds": [
+        "fepet",
+        "opacidad",
+        "contraste",
+        "honor"
+      ],
+      "sourceDocs": [
+        "BP",
+        "LG",
+        "T2",
+        "C2",
+        "PG",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U15 L01: Caso FEPET: opacidad, contraste y honor"
+        },
+        {
+          "sourceDocId": "LG",
+          "anchor": "La Guía del Sur 사례 분석"
+        },
+        {
+          "sourceDocId": "T2",
+          "anchor": "La Guía del Sur 사례 분석"
+        },
+        {
+          "sourceDocId": "C2",
+          "anchor": "La Guía del Sur 사례 분석"
+        },
+        {
+          "sourceDocId": "PG",
+          "anchor": "La Guía del Sur 사례 분석"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "La Guía del Sur 사례 분석"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-d",
+      "unitId": "codigo-u15-casos-aplicados-fepet-y-antonio-campos",
+      "lessonId": "codigo-u15-casos-aplicados-fepet-y-antonio-campos-l02",
+      "blueprintUnitId": "U15",
+      "blueprintLessonId": "L02",
+      "title": "L02. Caso Antonio I: secreto de sumario y presunción de inocencia",
+      "lessonType": "practice",
+      "objective": "Diagnosticar secreto de sumario y presunción de inocencia en el caso Antonio.",
+      "focus": "수사·사법 정보 보도 윤리",
+      "prerequisiteLessonIds": [
+        "codigo-u15-casos-aplicados-fepet-y-antonio-campos-l01"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "comprensión factual"
+        },
+        {
+          "count": 2,
+          "category": "problema ético"
+        },
+        {
+          "count": 2,
+          "category": "fuentes/enfoque"
+        },
+        {
+          "count": 2,
+          "category": "FAPE/CE/DDHH"
+        },
+        {
+          "count": 2,
+          "category": "mejora de redacción"
+        }
+      ],
+      "skillIds": [
+        "antonio-campos",
+        "secreto-de-sumario",
+        "presuncion-de-inocencia"
+      ],
+      "sourceDocs": [
+        "BP",
+        "LG",
+        "T2",
+        "C2",
+        "PG",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U15 L02: Caso Antonio I: secreto de sumario y presunción de inocencia"
+        },
+        {
+          "sourceDocId": "LG",
+          "anchor": "수사·사법 정보 보도 윤리"
+        },
+        {
+          "sourceDocId": "T2",
+          "anchor": "수사·사법 정보 보도 윤리"
+        },
+        {
+          "sourceDocId": "C2",
+          "anchor": "수사·사법 정보 보도 윤리"
+        },
+        {
+          "sourceDocId": "PG",
+          "anchor": "수사·사법 정보 보도 윤리"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "수사·사법 정보 보도 윤리"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-d",
+      "unitId": "codigo-u15-casos-aplicados-fepet-y-antonio-campos",
+      "lessonId": "codigo-u15-casos-aplicados-fepet-y-antonio-campos-l03",
+      "blueprintUnitId": "U15",
+      "blueprintLessonId": "L03",
+      "title": "L03. Caso Antonio II: sesgos, titular, fuentes y dignidad",
+      "lessonType": "practice",
+      "objective": "Analizar sesgos, titular, fuentes y dignidad en el caso Antonio.",
+      "focus": "편향·제목·출처·피해자 존엄",
+      "prerequisiteLessonIds": [
+        "codigo-u15-casos-aplicados-fepet-y-antonio-campos-l02"
+      ],
+      "targetCoreExerciseCount": 11,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "comprensión factual"
+        },
+        {
+          "count": 2,
+          "category": "detección de problema ético"
+        },
+        {
+          "count": 2,
+          "category": "identificación de fuentes/enfoque"
+        },
+        {
+          "count": 2,
+          "category": "referencia FAPE/CE/DDHH"
+        },
+        {
+          "count": 2,
+          "category": "mejora de redacción"
+        },
+        {
+          "count": 1,
+          "category": "mini-reescritura"
+        }
+      ],
+      "skillIds": [
+        "sesgo",
+        "titular",
+        "fuentes",
+        "dignidad"
+      ],
+      "sourceDocs": [
+        "BP",
+        "LG",
+        "T2",
+        "C2",
+        "PG",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U15 L03: Caso Antonio II: sesgos, titular, fuentes y dignidad"
+        },
+        {
+          "sourceDocId": "LG",
+          "anchor": "편향·제목·출처·피해자 존엄"
+        },
+        {
+          "sourceDocId": "T2",
+          "anchor": "편향·제목·출처·피해자 존엄"
+        },
+        {
+          "sourceDocId": "C2",
+          "anchor": "편향·제목·출처·피해자 존엄"
+        },
+        {
+          "sourceDocId": "PG",
+          "anchor": "편향·제목·출처·피해자 존엄"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "편향·제목·출처·피해자 존엄"
+        }
+      ]
+    },
+    {
+      "courseId": "codigo",
+      "sectionId": "codigo-section-d",
+      "unitId": "codigo-u15-casos-aplicados-fepet-y-antonio-campos",
+      "lessonId": "codigo-u15-casos-aplicados-fepet-y-antonio-campos-l04",
+      "blueprintUnitId": "U15",
+      "blueprintLessonId": "L04",
+      "title": "L04. Reescritura ética: 같은 사건을 더 잘 쓰는 법",
+      "lessonType": "story",
+      "objective": "Proponer una reescritura ética y profesional del tratamiento informativo.",
+      "focus": "윤리적 재작성과 개선 제안",
+      "prerequisiteLessonIds": [
+        "codigo-u15-casos-aplicados-fepet-y-antonio-campos-l03"
+      ],
+      "targetCoreExerciseCount": 10,
+      "recommendedExerciseMix": [
+        {
+          "count": 2,
+          "category": "comprensión factual"
+        },
+        {
+          "count": 2,
+          "category": "problema ético"
+        },
+        {
+          "count": 2,
+          "category": "fuentes/enfoque"
+        },
+        {
+          "count": 2,
+          "category": "FAPE/CE/DDHH"
+        },
+        {
+          "count": 2,
+          "category": "mejora de redacción"
+        }
+      ],
+      "skillIds": [
+        "reescritura-etica",
+        "mejora-redaccion",
+        "fape"
+      ],
+      "sourceDocs": [
+        "BP",
+        "LG",
+        "T2",
+        "C2",
+        "PG",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U15 L04: Reescritura ética: 같은 사건을 더 잘 쓰는 법"
+        },
+        {
+          "sourceDocId": "LG",
+          "anchor": "윤리적 재작성과 개선 제안"
+        },
+        {
+          "sourceDocId": "T2",
+          "anchor": "윤리적 재작성과 개선 제안"
+        },
+        {
+          "sourceDocId": "C2",
+          "anchor": "윤리적 재작성과 개선 제안"
+        },
+        {
+          "sourceDocId": "PG",
+          "anchor": "윤리적 재작성과 개선 제안"
+        },
+        {
+          "sourceDocId": "CM",
+          "anchor": "윤리적 재작성과 개선 제안"
+        }
+      ]
+    },
     {
       "courseId": "discurso",
       "sectionId": "discurso-s01",
@@ -9137,6 +13048,860 @@
     }
   ],
   "endNodePlans": [
+    {
+      "id": "codigo-u01-periodismo-imprescindible-y-servicio-publico-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u01-periodismo-imprescindible-y-servicio-publico",
+      "blueprintUnitId": "U01",
+      "title": "U01 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u01-periodismo-imprescindible-y-servicio-publico-l04"
+      ],
+      "targetInteractionCount": 3,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U01 Review node — 3 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u01-periodismo-imprescindible-y-servicio-publico-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u01-periodismo-imprescindible-y-servicio-publico",
+      "blueprintUnitId": "U01",
+      "title": "U01 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 6,
+      "prerequisiteLessonIds": [
+        "codigo-u01-periodismo-imprescindible-y-servicio-publico-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U01 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u02-profesion-oficio-y-mediacion-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u02-profesion-oficio-y-mediacion",
+      "blueprintUnitId": "U02",
+      "title": "U02 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u02-profesion-oficio-y-mediacion-l04"
+      ],
+      "targetInteractionCount": 3,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U02 Review node — 3 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u02-profesion-oficio-y-mediacion-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u02-profesion-oficio-y-mediacion",
+      "blueprintUnitId": "U02",
+      "title": "U02 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 6,
+      "prerequisiteLessonIds": [
+        "codigo-u02-profesion-oficio-y-mediacion-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U02 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u03-democracia-opinion-publica-y-cuarto-poder-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u03-democracia-opinion-publica-y-cuarto-poder",
+      "blueprintUnitId": "U03",
+      "title": "U03 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u03-democracia-opinion-publica-y-cuarto-poder-l04"
+      ],
+      "targetInteractionCount": 3,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U03 Review node — 3 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u03-democracia-opinion-publica-y-cuarto-poder-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u03-democracia-opinion-publica-y-cuarto-poder",
+      "blueprintUnitId": "U03",
+      "title": "U03 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 6,
+      "prerequisiteLessonIds": [
+        "codigo-u03-democracia-opinion-publica-y-cuarto-poder-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U03 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u04-derecho-etica-y-marco-constitucional-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u04-derecho-etica-y-marco-constitucional",
+      "blueprintUnitId": "U04",
+      "title": "U04 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u04-derecho-etica-y-marco-constitucional-l04"
+      ],
+      "targetInteractionCount": 3,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U04 Review node — 3 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u04-derecho-etica-y-marco-constitucional-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-a",
+      "unitId": "codigo-u04-derecho-etica-y-marco-constitucional",
+      "blueprintUnitId": "U04",
+      "title": "U04 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 6,
+      "prerequisiteLessonIds": [
+        "codigo-u04-derecho-etica-y-marco-constitucional-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U04 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u05-etica-moral-y-caracter-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u05-etica-moral-y-caracter",
+      "blueprintUnitId": "U05",
+      "title": "U05 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 4,
+      "prerequisiteLessonIds": [
+        "codigo-u05-etica-moral-y-caracter-l03"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U05 Review node — 2 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u05-etica-moral-y-caracter-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u05-etica-moral-y-caracter",
+      "blueprintUnitId": "U05",
+      "title": "U05 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u05-etica-moral-y-caracter-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U05 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad",
+      "blueprintUnitId": "U06",
+      "title": "U06 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-l04"
+      ],
+      "targetInteractionCount": 3,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U06 Review node — 3 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u06-etica-humanista-tolerancia-libertad-igualdad",
+      "blueprintUnitId": "U06",
+      "title": "U06 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 6,
+      "prerequisiteLessonIds": [
+        "codigo-u06-etica-humanista-tolerancia-libertad-igualdad-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U06 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u07-dignidad-humana-y-derechos-fundamentales-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u07-dignidad-humana-y-derechos-fundamentales",
+      "blueprintUnitId": "U07",
+      "title": "U07 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u07-dignidad-humana-y-derechos-fundamentales-l04"
+      ],
+      "targetInteractionCount": 3,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U07 Review node — 3 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u07-dignidad-humana-y-derechos-fundamentales-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u07-dignidad-humana-y-derechos-fundamentales",
+      "blueprintUnitId": "U07",
+      "title": "U07 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 6,
+      "prerequisiteLessonIds": [
+        "codigo-u07-dignidad-humana-y-derechos-fundamentales-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U07 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u08-dignidad-profesional-y-anti-cinismo-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u08-dignidad-profesional-y-anti-cinismo",
+      "blueprintUnitId": "U08",
+      "title": "U08 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 4,
+      "prerequisiteLessonIds": [
+        "codigo-u08-dignidad-profesional-y-anti-cinismo-l03"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U08 Review node — 2 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u08-dignidad-profesional-y-anti-cinismo-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-b",
+      "unitId": "codigo-u08-dignidad-profesional-y-anti-cinismo",
+      "blueprintUnitId": "U08",
+      "title": "U08 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u08-dignidad-profesional-y-anti-cinismo-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U08 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil",
+      "blueprintUnitId": "U09",
+      "title": "U09 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-l04"
+      ],
+      "targetInteractionCount": 3,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U09 Review node — 3 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil",
+      "blueprintUnitId": "U09",
+      "title": "U09 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 6,
+      "prerequisiteLessonIds": [
+        "codigo-u09-autorregulacion-mercado-estado-y-sociedad-civil-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "PI",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U09 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u10-derechos-y-deberes-del-periodista-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u10-derechos-y-deberes-del-periodista",
+      "blueprintUnitId": "U10",
+      "title": "U10 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u10-derechos-y-deberes-del-periodista-l04"
+      ],
+      "targetInteractionCount": 3,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U10 Review node — 3 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u10-derechos-y-deberes-del-periodista-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u10-derechos-y-deberes-del-periodista",
+      "blueprintUnitId": "U10",
+      "title": "U10 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 6,
+      "prerequisiteLessonIds": [
+        "codigo-u10-derechos-y-deberes-del-periodista-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U10 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad",
+      "blueprintUnitId": "U11",
+      "title": "U11 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 4,
+      "prerequisiteLessonIds": [
+        "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-l03"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U11 Review node — 2 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad",
+      "blueprintUnitId": "U11",
+      "title": "U11 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u11-codigo-deontologico-concepto-funcion-y-utilidad-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U11 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u12-historia-internacional-y-europea-de-los-codigos-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u12-historia-internacional-y-europea-de-los-codigos",
+      "blueprintUnitId": "U12",
+      "title": "U12 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 4,
+      "prerequisiteLessonIds": [
+        "codigo-u12-historia-internacional-y-europea-de-los-codigos-l03"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U12 Review node — 2 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u12-historia-internacional-y-europea-de-los-codigos-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u12-historia-internacional-y-europea-de-los-codigos",
+      "blueprintUnitId": "U12",
+      "title": "U12 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u12-historia-internacional-y-europea-de-los-codigos-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U12 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u13-espana-fape-y-estatuto-profesional-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u13-espana-fape-y-estatuto-profesional",
+      "blueprintUnitId": "U13",
+      "title": "U13 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u13-espana-fape-y-estatuto-profesional-l04"
+      ],
+      "targetInteractionCount": 3,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U13 Review node — 3 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u13-espana-fape-y-estatuto-profesional-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-c",
+      "unitId": "codigo-u13-espana-fape-y-estatuto-profesional",
+      "blueprintUnitId": "U13",
+      "title": "U13 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 6,
+      "prerequisiteLessonIds": [
+        "codigo-u13-espana-fape-y-estatuto-profesional-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "CV",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U13 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u14-metodo-de-comentario-de-texto-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-d",
+      "unitId": "codigo-u14-metodo-de-comentario-de-texto",
+      "blueprintUnitId": "U14",
+      "title": "U14 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 4,
+      "prerequisiteLessonIds": [
+        "codigo-u14-metodo-de-comentario-de-texto-l03"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "PG",
+        "LG",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U14 Review node — 2 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u14-metodo-de-comentario-de-texto-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-d",
+      "unitId": "codigo-u14-metodo-de-comentario-de-texto",
+      "blueprintUnitId": "U14",
+      "title": "U14 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u14-metodo-de-comentario-de-texto-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "PG",
+        "LG",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U14 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
+    {
+      "id": "codigo-u15-casos-aplicados-fepet-y-antonio-campos-review",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-d",
+      "unitId": "codigo-u15-casos-aplicados-fepet-y-antonio-campos",
+      "blueprintUnitId": "U15",
+      "title": "U15 Review",
+      "lessonType": "review",
+      "objective": "Recuperar y mezclar los conceptos centrales de la unidad antes de avanzar.",
+      "order": 5,
+      "prerequisiteLessonIds": [
+        "codigo-u15-casos-aplicados-fepet-y-antonio-campos-l04"
+      ],
+      "targetInteractionCount": 3,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "LG",
+        "T2",
+        "C2",
+        "PG",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U15 Review node — 3 interactions"
+        }
+      ],
+      "nodeType": "review"
+    },
+    {
+      "id": "codigo-u15-casos-aplicados-fepet-y-antonio-campos-challenge",
+      "courseId": "codigo",
+      "sectionId": "codigo-section-d",
+      "unitId": "codigo-u15-casos-aplicados-fepet-y-antonio-campos",
+      "blueprintUnitId": "U15",
+      "title": "U15 Challenge",
+      "lessonType": "challenge",
+      "objective": "Resolver una tarea capstone de comparación, juicio ético, reescritura o aplicación.",
+      "order": 6,
+      "prerequisiteLessonIds": [
+        "codigo-u15-casos-aplicados-fepet-y-antonio-campos-review"
+      ],
+      "targetInteractionCount": 2,
+      "skillIds": [],
+      "sourceDocs": [
+        "BP",
+        "LG",
+        "T2",
+        "C2",
+        "PG",
+        "CM"
+      ],
+      "sourceAnchors": [
+        {
+          "sourceDocId": "BP",
+          "anchor": "U15 Challenge node — 2 interactions"
+        }
+      ],
+      "nodeType": "challenge"
+    },
     {
       "id": "discurso-u01-review",
       "courseId": "discurso",
